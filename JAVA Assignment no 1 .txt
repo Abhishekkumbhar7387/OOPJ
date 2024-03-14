@@ -1,0 +1,116 @@
+// JAVA Assignment no 1 
+
+// Q1.
+
+/* Q2.Write a program that checks if a given year is a leap year or not using both if-else and 
+      switch-case.*/
+
+/* package CDAC ;
+import java.util.Scanner;
+
+public class Assignment1_1 {
+
+	public static void main(String[] args) {
+		Scanner in =new Scanner(System.in); 
+		int n=in.nextInt();
+	    
+	      if (n%400 ==0 || n%4==0)
+	      {
+	    	  System.out.println("Leap Year");
+	    	  
+	      }
+	      else 
+	    	  System.out.println("Not Leap Year");
+	
+
+	}
+
+} */
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// Q3 Implement a simple calculator program that takes two numbers and an operator (+, -, *, /) as 
+      input and performs the operation using switch-case
+
+/*  package CDAC;
+import java.util.Scanner;
+public class Assignment1_3 {
+	public static void main(String []args) {
+		Scanner in =new Scanner(System.in); 
+		System.out.print("Enter the number :");
+		int n1 = in.nextInt();
+		System.out.print("Enter the Operator :");
+		char operation =in.next(). charAt(0);
+		System.out.print("Enter the number :");
+		int n2 = in.nextInt();
+		
+		switch (operation) {
+		case '+': 
+			     System.out.println(n1+n2);
+			     break;
+		case '-':
+			     System.out.println(n1-n2);
+			 break;
+		case '*':
+		         System.out.println(n1*n2);
+		     break;
+		case '/' : 
+                 System.out.println(n1/n2);
+		     break; 
+		     
+		  default :
+			   System.out.println("Invalid Operator");
+		  
+		}
+
+
+		
+
+	}
+
+}*/
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Q 4 ...   Write a program that takes a number representing a weekday (1-7) and prints the name of the 
+           weekday using switch-case.
+
+/*  package CDAC;
+import java.util.Scanner;
+public class Assignment1_3 {
+	public static void main(String []args) {
+		Scanner in =new Scanner(System.in); 
+		System.out.print("Enter the number :");
+                 int n1 = in.nextInt();
+
+		System.out.print("Enter the Operator :");
+		char operation =in.next(). charAt(0);
+
+		System.out.print("Enter the number :");
+		int n2 = in.nextInt();
+		
+		switch (operation) {
+		case '+': 
+			     System.out.println(n1+n2);
+			     break;
+		case '-':
+			     System.out.println(n1-n2);
+			 break;
+		case '*':
+		         System.out.println(n1*n2);
+		     break;
+		case '/' : 
+                 System.out.println(n1/n2);
+		     break; 
+		     
+		  default :
+			   System.out.println("Invalid Operator");
+		  
+		}
+
+
+		
+
+	}
+
+}*/
