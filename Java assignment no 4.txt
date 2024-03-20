@@ -1,0 +1,113 @@
+Que 1) 
+Build a class Student which contains details about 
+the Student and compile and run its instance.
+package assignment4;
+// Build a class Student which contains details 
+about the Student and compile and run its 
+instance.
+public class Student {
+String name; 
+int age;
+long mobileNo;
+public Student(){
+}
+public Student(String name, int age, long
+mobileNo){
+this.name = name;
+this.age = age;
+this.mobileNo = mobileNo;
+}
+void displayStudent(){
+ System.out.println("Name: "+this.name);
+ System.out.println("Age: "+this.age);
+ System.out.println("Mobile No: 
+"+this.mobileNo);
+}
+public static void main(String args[]){ 
+Student s1=new Student("RAM",25,1111110000);
+Student s2=new Student("SHAM",26,0000011112);
+s1.displayStudent();
+s2.displayStudent();
+} 
+} 
+OUTPUT: 
+Name: RAM
+ Age: 25
+ Mobile No: 1111110000
+ Name: SHAM
+ Age: 26
+ Mobile No: 4682
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+QUe 2)  Write a Vehicle class with overloaded methods that 
+have a different number of parameters. Demonstrate 
+calling these overloaded methods with various 
+numbers of arguments.
+package assignment4;
+public class Vehicle {
+void start()
+{
+System.out.println(" vehicle in motion");
+}
+public static void main(String[] args)
+{
+Car car = new Car();
+car.start(); 
+car.start(1);
+}
+}
+class Car extends Vehicle
+{
+void start(int count)
+{
+System.out.println("Starting " + count );
+}
+}
+Output: 
+vehicle in motion
+Starting 1
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+Que 3)   Create a class Employee with multiple overloaded 
+methods that have different parameter types (e.g., 
+int, double, String). Demonstrate calling each 
+overloaded method with appropriate arguments.
+package assignment4;
+import java.util.Scanner;
+class Programe{
+private String name;
+private int empid;
+private float salary;
+public void acceptRecord( ) {
+Scanner sc = new Scanner(System.in);
+System.out.print("Name : ");
+this.name = sc.nextLine();
+System.out.print("Empid : ");
+this.empid = sc.nextInt();
+System.out.print("Salary : ");
+this.salary = sc.nextFloat();
+}
+public void printRecord( ) {
+System.out.println( this.name+" "+this.empid+"
+"+this.salary);
+}
+}
+public class Program {
+public static void main(String[] args) {
+Programe emp1 = new Programe();
+emp1.acceptRecord( );
+emp1.printRecord( );
+Programe emp2 = new Programe();
+emp2.acceptRecord( );
+emp2.printRecord( );
+Programe emp3 = new Programe();
+emp3.acceptRecord( );
+emp3.printRecord( );
+}
+}
+Output: 
+ Name : ram
+ Empid : 1
+Salary : 50000
